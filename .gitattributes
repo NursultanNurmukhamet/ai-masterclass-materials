@@ -1,0 +1,12 @@
+* text=auto
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.pdf binary
+*.pptx binary
+*.docx binary
+*.xlsx binary
+*.zip binary
+*.png binary
+*.jpg binary
