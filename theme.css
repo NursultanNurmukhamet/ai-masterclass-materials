@@ -1,0 +1,37 @@
+/* Calm theme: slate and soft steel blue. Loaded after app.css and overrides its colours. */
+:root{color:#1f2733;background:#f5f6f8;--ink:#1c2533;--muted:#5b6472;--lime:#d4dde7;--line:#dfe3e8;--paper:#f5f6f8;--white:#fff}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,textarea:focus-visible{outline-color:#3d5a80}
+.masthead a:focus-visible,.masthead button:focus-visible{outline-color:#d4dde7}
+.hero-art{filter:grayscale(1) brightness(.85);opacity:.45}
+.lime:hover{background:#e7edf3}
+.glass{background:#1c2533b3}.glass:hover{background:#2b3646}
+.secondary:hover{border-color:#9aa8b8;background:#eef2f6}
+.tab-count{background:#e4e9ef;color:#2f3d4f}
+.search-box input{border-color:#c6cdd6}
+.quick-list button{background:#eceff3}.quick-list button:hover{border-color:#b4bfcc;background:#e3e8ee}
+.category small{color:#6b7480}.category:hover{background:#eceff3}
+.prompt-card:hover{box-shadow:0 12px 32px #1c25330d;border-color:#c3ccd6}
+.category-label{color:#3d4b5c;background:#edf0f4}
+.open-prompt{background:#f1f3f6}.open-prompt:hover,.copy-small:hover,.service-links a:hover,.dialog-links a:hover{background:#dfe6ee;border-color:#dfe6ee}
+.begin-box{background:#eef1f4}
+.empty{border-color:#bcc4ce}
+.format{color:#5a6676}
+.practice-panel .eyebrow,.trainer-section .eyebrow{color:#4e5b6b}
+.guide-num{background:#eceff3}
+.guide-body p,.guide-body ul,.guide-body ol{color:#434c58}
+.guide-body a{color:#2f5378}
+.guide-body .plan-card,.guide-body .service-plan{background:#f7f8fa}
+.guide-body pre,.guide-body .prompt{background:#eef1f4}
+.guide-body dd{color:#4d5664}
+.guide-body .mobile-note,.guide-body .route{background:#eef1f4}
+dialog{border-color:#d9dee5}dialog::backdrop{background:#0f141cbb}
+.dialog-bar>span{color:#3d5a80}
+.mini-steps b{color:#3d5a80}
+.fields{color:#3f4a58;background:#eaeef3}
+.check-box{border-left-color:#7f93ab}.check-box p{color:#4a5462}
+.dialog-links a{border-color:#cbd3dc}
+.manual-copy textarea{border-color:#aeb8c4}
+.noscript{background:#eef1f4}
+@media(max-width:1050px){.hero-art{opacity:.35}}
+@media(max-width:800px){.hero-art{opacity:.28}.mobile-category select{border-color:#c3cad3}}
+@media(max-width:560px){.hero-art{opacity:.18}}
